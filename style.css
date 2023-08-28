@@ -1,0 +1,124 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 94%);
+}
+main {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  height: 450px;
+  width: 600px;
+  border-radius: 20px 20px 150px 20px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  width: 500px;
+}
+.mini-container {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 80px;
+  width: 166.666px;
+}
+.mini-container h4 {
+  margin-bottom: 0;
+  color: hsl(0, 1%, 44%);
+}
+.input {
+  width: 70px;
+  height: 44px;
+  margin-top: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  font-weight: bolder;
+}
+.input:hover,
+.input:focus {
+  border-color: hsl(259, 100%, 65%);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.second-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 500px;
+
+  margin-top: 20px;
+}
+hr {
+  width: 500px;
+  margin-left: 30px;
+
+  margin-top: 30px;
+}
+.cbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 500px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+.date-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.frontd {
+  color: hsl(259, 100%, 65%);
+  margin-right: 20px;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.frontm {
+  color: hsl(259, 100%, 65%);
+  margin-right: 20px;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.fronty {
+  color: hsl(259, 100%, 65%);
+  margin-right: 20px;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.back {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  font-size: xx-large;
+}
